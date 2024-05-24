@@ -28,7 +28,7 @@ export default function Hero() {
           transition={{ delay: 0.3, duration: 0.8 }}
         >
           I'm
-          <span className="text-blue-500 ml-4 uppercase">Pankaj Kumar</span>
+          <span className="text-blue-500 ml-4 uppercase">Andrii Kern</span>
         </motion.p>
         <TypewriterEffectSmooth words={words} />
         <motion.p
@@ -37,7 +37,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.7 }}
         >
-          I'm a Full Stack Developer based in India. I have a passion for web
+          I'm a Front-end Developer based in Singapore. I have a passion for web
           development and love to create for web apps.
         </motion.p>
 
@@ -57,7 +57,7 @@ export default function Hero() {
             </Button>
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1Yd3Z6GO8-vxHOldYckjj42sf8mjP2SgP/view?usp=drive_open"
+            href="https://drive.google.com/file/d/1EfQXqQ-WNHFIKyulu97aZd8QpfrcHzwn/view"
             target="_blank"
           >
             <Button variant="secondary" className="flex gap-2 items-center">
@@ -75,12 +75,12 @@ export default function Hero() {
         transition={{ duration: 0.8, delay: 0.3 }}
       >
         <Image
-          src="/pk.jpg"
+          src="/AK.jpg"
           width={300}
           height={300}
           quality={80}
           loading="lazy"
-          alt="Pankaj Kumar"
+          alt="Tomas Turner"
           className="rounded-full w-52 h-52 md:w-72 md:h-72 object-cover object-center shadow-lg"
         />
       </motion.div>
@@ -90,10 +90,10 @@ export default function Hero() {
 
 const words = [
   {
-    text: "Full",
+    text: "Front",
   },
   {
-    text: "Stack",
+    text: "End",
   },
   {
     text: "Web",

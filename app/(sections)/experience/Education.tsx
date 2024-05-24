@@ -14,10 +14,7 @@ const Education = () => {
           className="relative border-s  border-gray-200 dark:border-gray-700"
         >
           {Data.map((data) => (
-            <li key={data.name} className="mb-10 ms-6">
-              <span className="absolute flex items-center justify-center w-10 h-10 rounded-full -start-5 md:-start-6  ring-2">
-                <img src={data.logo} className="rounded-full" alt={data.name} />
-              </span>
+            <li key={data.name}>
               <h3 className="flex flex-col md:flex-row mb-2 ml-3 text-lg font-semibold">
                 {data.name}
                 <Button
@@ -43,15 +40,8 @@ export default Education;
 
 const Data = [
   {
-    name: "Marwadi University",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKRZ3cXcWn67pqykFC3pBO7F-ESU96o5wLVWy7QrlDHslvAe9ifAE&s",
+    name: "Singapore polytechnic",
     timeSpan: "2020 - 2024",
-    course: "Bachelor of Engineering in Computer Science",
-  },
-  {
-    name: "Samastipur College Samastipur",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/BSEB_LOGO.svg/100px-BSEB_LOGO.svg.png",
-    timeSpan: "2018 - 2020",
-    course: "Intermediate",
-  },
+    course: "Bachelor's Degree in Computer Science",
+  }
 ];

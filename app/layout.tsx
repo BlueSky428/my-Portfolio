@@ -10,9 +10,9 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio: Pankaj Kumar",
+  title: "Portfolio: Tomas Tuner",
   description:
-    "Pankaj Kumar is FullStack Web Developer and Currently working at Netclues India Private Limited",
+    "Tomas Tuner is Front-end Web Developer and Currently working at Netclues India Private Limited",
   keywords: "pankajktech, pankajthakur, pankajkumar portfolio",
 };
 

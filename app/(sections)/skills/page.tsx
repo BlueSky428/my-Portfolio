@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Frontend, Backend, Tools } from "./constant";
+import { Frontend, Tools } from "./constant";
 import { motion } from "framer-motion";
 
 interface SkillComponents {
@@ -10,16 +10,12 @@ interface SkillComponents {
 
 const skillComponents: SkillComponents = {
   Frontend: Frontend,
-  Backend: Backend,
   Tools: Tools,
 };
 
 const data = [
   {
     label: "Frontend",
-  },
-  {
-    label: "Backend",
   },
   {
     label: "Tools",
@@ -47,7 +43,6 @@ const Skills = () => {
               </motion.span>
               <div className="w-16 h-[1px] bg-blue-500 rounded-full my-1"></div>
             </div>
-
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

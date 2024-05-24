@@ -14,9 +14,6 @@ const Experience = () => {
         >
           {Data.map((data) => (
             <li className="mb-10 ms-6" key={data.name}>
-              <span className="absolute flex items-center justify-center w-10 h-10 rounded-full -start-4 md:-start-6  ring-2">
-                <img src={data.logo} className="rounded-full" alt={data.name} />
-              </span>
               <h3 className="flex flex-col md:flex-row mb-2 ml-3 text-lg font-semibold">
                 {data.name}
                 <Button
@@ -32,6 +29,7 @@ const Experience = () => {
                 <ul className="list-disc font-sans text-sm mt-3 ml-5 ">
                   <li className="my-1">{data?.about1}</li>
                   <li className="my-1">{data?.about2}</li>
+                  <li className="my-1">{data?.about3}</li>
                 </ul>
               </time>
             </li>
@@ -46,19 +44,27 @@ export default Experience;
 
 const Data = [
   {
-    name: "Netclues Technologies Pvt. Ltd.",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCNPWXMttPr62alzxZXj7NzXn4XeI5n6EJeZYQdiyBPyorfzl_6L8uXCCX5E-f65rtSE",
-    timeSpan: "Feb 2024 - Current",
-    role: "Full Stack Web Developer Intern",
-    about1: "Worked on various projects using MERN stack.",
-    about2: "Worked On Fullstack Project",
+    name: "CSSSR Company",
+    timeSpan: "May, 2022 - Dec, 2023",
+    role: "Front-End Developer - Remote",
+    about1: "Managed front end development of an enterprise-level intranet, empowering over 5,000 employees with improved navigation and interactive features.",
+    about2: "Implemented a CSS preprocessor (Sass) workflow that standardised styling across products and increased development efficiency by 15%.",
+    about3: "Contributed to the development of a content-rich website for a leading news outlet, enhancing the user experience for over 1 million unique visitors per month.",
   },
   {
-    name: "Innomatics Research Labs",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_v25Y6MzeoaGAjHvs-TU7add6exI4EDucTLytmlJWUg&s",
-    timeSpan: "Feb 2023 - April 2023",
-    role: "Full Stack Web Developer Intern",
-    about1: "Worked on various projects using MERN stack.",
-    about2: "Developed a website for a startup using MERN stack.",
+    name: "Scalo Company",
+    timeSpan: "Apr, 2020 - Feb, 2022",
+    role: "Front-End Developer - Remote",
+    about1: "Performed code review and bug fixes, reducing technical debt by 70% in the first quarter.",
+    about2: "Spearheaded the transition to a React-based front-end, coupled with Redux for state management, which cut down page loading time by 40%.",
+    about3: "Pioneered the implementation of automated front-end testing procedures that brought down reported UI bugs by 60%, enhancing overall software quality.",
+  },
+  {
+    name: "Agile Lab Company",
+    timeSpan: "Aug, 2018 -Dec, 2019",
+    role: "Front-End Developer - Remote",
+    about1: "Managed a process re-engineering project to improve and consolidate end-toend service processes; restructured communication flow among10 departments and cut down paperwork by 75%.",
+    about2: "Utilized effective debugging tools to identify areas of performance issues, resulting in improvement of client-side scripts by 25%",
+    about3: "Reduced repeat work by establishing a coding style and its implementation, resulting in an10% increase in developer performance.",
   },
 ];

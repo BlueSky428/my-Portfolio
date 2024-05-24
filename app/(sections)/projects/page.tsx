@@ -34,7 +34,6 @@ function ProjectsPage() {
                       <LucideExternalLink size={15} />
                     </Button>
                   </Link>
-
                   <Link href={github} target="_blank">
                     <Button variant="secondary">
                       <Github size={15} />

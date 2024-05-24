@@ -10,22 +10,17 @@ import Link from "next/link";
 
 export const Data = [
   {
-    link: "https://www.linkedin.com/in/pankajktech/",
+    link: "",
     icon: Linkedin,
     tooltip: "Connect On Linkedin",
   },
   {
-    link: "https://github.com/pankajktech",
+    link: "https://github.com/BlueSky428",
     icon: Github,
     tooltip: "Connect On Github",
   },
   {
-    link: "https://twitter.com/pankajktech1",
-    icon: Twitter,
-    tooltip: "Follow On X",
-  },
-  {
-    link: "mailto:mailto:tunewithpk@gmail.com",
+    link: "mailto:mailto:dev.engineer114@gmail.com",
     icon: Mail,
     tooltip: "Mail Us",
   },
